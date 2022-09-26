@@ -1,7 +1,50 @@
 
-
+:root {
+    
+    --background-dark: #19212c;
+    --backgrounf-light: #28535D;
+    --primary-green: rgb(64, 219, 224);
+    --grey: #D6D6E3;
+}
+html {
+    background-color: var(--background-dark);
+    color: var(--primary-green);
+    height: 100%;
+}
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+    width: 300px;
+    margin: auto auto;
+}
+
+
+main{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#check-button{
+    font-size:1.15rem;
+   display: block;
+    margin: 0.95rem;
+    border: 0.1rem;
+    border-radius: 0.20rem;
+    cursor: pointer;
+    padding:0.3rem;
+    font-weight: bold;
+    width:85%;  
+    color:blue;
+}
+button:hover{
+    font-size: 1.2rem;
+}
+input{
+    padding: 0.75rem;
+    display: block;
+    border-radius: 0.25rem;
+    font-size:1.15rem;
+    font-weight:540;
+    text-align: center;
+    color: #22401B;
+    border: none;
+    margin: 0.5rem;
 }
