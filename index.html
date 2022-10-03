@@ -9,22 +9,34 @@
   </head>
   <body>
     <main>
-    <div class="container">
+    <div class="container" id="first">
       <h1 class="heading">Cash Register Manager</h1>
       <p class="description">
         Enter the bill amount and cash given by the customer and know minimum
         number of notes to return.
       </p>
       <label for="bill-amount">Bill Amount:</label>
-      <input id="bill-amount" type="text" />
-      <label for="cash-given">Cash Given:</label>
-      <input id="cash-given" type="text" />
-      <button id="check-button">Check</button>
+      <div><input id="bill-amount" type="number" /></div>
+      <div><button class="btn" id ="btn-next">Next</button></div>
+     </div>
+
+
+<div class="container" id="second">     
+  <label for="cash-given">Cash Given:</label>
+  <div><input id="cash-given" type="number" /></div>
+      <div>
+      <button id="check-button" type="button">Check</button>
+      </div>
+</div>
+
       <p id="error-message"></p>
-      <table class="change-table">
+
+      <div class="change-return" id="third">
+      <table class="table">
         <caption>
-          Return Change
+          Return Change :
         </caption>
+        <!-- <div id="output"> -->
         <tr>
           <th>No of Notes</th>
           <td class="no-of-notes"></td>
@@ -34,6 +46,7 @@
           <td class="no-of-notes"></td>
           <td class="no-of-notes"></td>
           <td class="no-of-notes"></td>
+          
         </tr>
         <tr>
           <th>Note</th>
@@ -46,9 +59,12 @@
           <td>1</td>
         </tr>
       </table>
+      </div>
     </div>
-    </main>
+   
     
-    <script src="./index.js"></script>
+  </main>
+    
+    <script src="./index.js" text="text/javascript"></script>
   </body>
 </html>

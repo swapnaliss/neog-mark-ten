@@ -18,8 +18,15 @@ html {
 
 
 main{
+    max-width: 700px;
+    height:100%;
     text-align: center;
-    margin-top: 100px;
+    margin:0 auto;
+    
+    color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
 }
 
 #check-button{
@@ -37,6 +44,26 @@ main{
 button:hover{
     font-size: 1.2rem;
 }
+
+.table {
+    width: 75%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin:1rem auto;
+  }
+  
+  .table caption {
+    margin: 1rem auto;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  th,
+  td {
+    border: 2px solid black;
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.5rem;
+  }
 input{
     padding: 0.75rem;
     display: block;
@@ -47,4 +74,11 @@ input{
     color: #22401B;
     border: none;
     margin: 0.5rem;
+}
+
+#second{
+    display: none;
+}
+#third{
+    display: none;
 }
