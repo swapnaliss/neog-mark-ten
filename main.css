@@ -1,84 +1,81 @@
-
 :root {
-    
-    --background-dark: #19212c;
-    --backgrounf-light: #28535D;
-    --primary-green: rgb(64, 219, 224);
-    --grey: #D6D6E3;
+  --background-dark: #19212c;
+  --backgrounf-light: #28535d;
+  --primary-green: rgb(64, 219, 224);
+  --grey: #d6d6e3;
 }
 html {
-    background-color: var(--background-dark);
-    color: var(--primary-green);
-    height: 100%;
+  background-color: var(--background-dark);
+  color: var(--primary-green);
+  height: 100%;
 }
 .container {
-    width: 300px;
-    margin: auto auto;
+  width: 300px;
+  margin: auto auto;
 }
 
+main {
+  max-width: 700px;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
 
-main{
-    max-width: 700px;
-    height:100%;
-    text-align: center;
-    margin:0 auto;
-    
-    color: wheat;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-    padding-bottom: 1rem;
+  color: wheat;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding-bottom: 1rem;
 }
 
-#check-button{
-    font-size:1.15rem;
-   display: block;
-    margin: 0.95rem;
-    border: 0.1rem;
-    border-radius: 0.20rem;
-    cursor: pointer;
-    padding:0.3rem;
-    font-weight: bold;
-    width:85%;  
-    color:blue;
+#check-button {
+  font-size: 1.15rem;
+  display: block;
+  margin: 0.95rem;
+  border: 0.1rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  padding: 0.3rem;
+  font-weight: bold;
+  width: 85%;
+  color: blue;
 }
-button:hover{
-    font-size: 1.2rem;
+button:hover {
+  font-size: 1.2rem;
 }
 
 .table {
-    width: 75%;
-    text-align: justify;
-    border-collapse: collapse;
-    margin:1rem auto;
-  }
-  
-  .table caption {
-    margin: 1rem auto;
-    font-size: 2rem;
-    font-weight: 500;
-  }
-  th,
-  td {
-    border: 2px solid black;
-    width: 0%;
-    border-collapse: collapse;
-    padding: 0.5rem;
-  }
-input{
-    padding: 0.75rem;
-    display: block;
-    border-radius: 0.25rem;
-    font-size:1.15rem;
-    font-weight:540;
-    text-align: center;
-    color: #22401B;
-    border: none;
-    margin: 0.5rem;
+  width: 75%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: 1rem auto;
 }
 
-#second{
-    display: none;
+.table caption {
+  margin: 1rem auto;
+  font-size: 2rem;
+  font-weight: 500;
 }
-#third{
-    display: none;
+th,
+td {
+  border: 2px solid black;
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+input {
+  padding: 0.75rem;
+  display: block;
+  border-radius: 0.25rem;
+  font-size: 1.15rem;
+  font-weight: 540;
+  text-align: center;
+  color: #22401b;
+  border: none;
+  margin: 0.5rem;
+}
+
+#second {
+  display: none;
+}
+#third {
+  display: none;
 }
